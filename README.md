@@ -59,10 +59,14 @@ Añadimos la metainformación sobre el cambio realizado a mis metadatos de cambi
 git commit -a -m "Añadido el primer documento de la práctica 1"
 
 ### Subis vuestro código a vuestro github en la rama correspondiente
-git push origin practica_1
+git push origin practica_1 
+(Si habéis hecho bien el fork, ese origin hará referencia al mío y no os dejará, debereís sustituir origin por vuestro propio repo en github para subirlo)
 
 ### Pull-request
 Una vez subido a github, haceís un pull-request (desde el navegador) y me llega un aviso de que quereís incoporarlo para que yo lo vea y os pueda enviar correcciones.
+(DESDE CONSOLA)
+
+git pull-request origin master (Y con eso ya me debería llegar el aviso, si el fork no lo habeís hecho de la manera adecuada y origin es vuestro repo, tendréis que poner en lugar de origin, git@github.com:gvalverd/ETL1920.git
 
 https://www.atlassian.com/es/git/tutorials/making-a-pull-request
 https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-Hacer-un-Pull-Request
